@@ -10,7 +10,8 @@
       "widgetId": "@gristlabs/widget-inspect#onRecord",
       "published": true,
       "accessLevel": "read table",
-      "renderAfterReady": true
+      "renderAfterReady": true,
+      "archive": {}
     },
     {
       "name": "Inspect Table",
@@ -18,7 +19,8 @@
       "widgetId": "@gristlabs/widget-inspect#onRecords",
       "published": true,
       "accessLevel": "read table",
-      "renderAfterReady": true
+      "renderAfterReady": true,
+      "archive": {}
     },
     {
       "name": "Inspect Options",
