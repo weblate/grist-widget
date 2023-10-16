@@ -130,6 +130,7 @@ class Bundler {
       for (const url of (widget.archive.entrypoints || [])) {
         this.downloadUrl(url, widget);
       }
+      this.widgets.push(widget);
     }
 
     // Rename material served from our asset server to a
@@ -195,7 +196,6 @@ class Bundler {
 
     // Set a timestamp.
     widget.bundledAt = this.bundledAt.toISOString();
-    this.widgets.push(widget);
   }
 
   // Quick sanity check on domains, since we'll be inserting
